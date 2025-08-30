@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task list</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- CDN links for Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <h1 class="header">Task list</h1>
+    <div class="input-group flex-nowrap">
+        <span class="input-group-text" id="addon-wrapping">Task</span>
+        <input type="text" id="taskInput" class="form-control" placeholder="Enter your task"
+            aria-describedby="addon-wrapping">
+        <button class="btn btn-primary" style="width: 10%;" id="addBtn">Add</button>
+    </div>
+    <ul class="list-group" id="taskList">
+    </ul>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,102 @@
+body {
+    background: #2193b0;
+    background: -webkit-linear-gradient(to right, #2193b0, #6dd5ed);
+    background: linear-gradient(to right, #2193b0, #6dd5ed);
+}
+
+.header {
+    text-align: center;
+    color: white;
+    margin: 5% 0 3% 0;
+}
+
+.input-group {
+    width: 60% !important;
+    margin: auto;
+}
+
+.form-control {
+    height: 40px;
+}
+
+.list-group {
+    margin: 5% auto;
+    width: 40%;
+}
+
+.list-group-item {
+    font-size: 1.1rem;
+}
+
+.cont {
+    float: right;
+}
+
+.bin-img {
+    float: right;
+    margin-right: 2%;
+    margin-top: 20%;
+    cursor: pointer;
+}
+
+.edit-img {
+    float: right;
+    margin-right: 6%;
+    cursor: pointer;
+}
+
+.list-group-item {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+}
+
+.task-value {
+    display: inline-block;
+    margin: 0.6% 0 0.6% 0;
+    max-width: 80%;
+    word-break: break-word;
+}
+
+.dropdown {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 25%;
+    margin-top: 15%;
+    cursor: pointer;
+}
+
+.cont {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.delete-btn {
+    margin-right: 20%;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-menu {
+    width: 100% !important;
+    min-width: 400px !important;
+    padding: 28px;
+}
+
+.dropdown-menu li {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.dropdown-menu input {
+    flex: 1;
+}
+
+.dropdown-menu button {
+    flex-shrink: 0;
+}
