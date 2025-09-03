@@ -7,6 +7,7 @@ to install the dependencies
 [MongoDB.com](https://www.mongodb.com)
 ### `Connect the DB and copy the connection string`
 create a .env file and assign the connection string to MongoDB_key
+
 example :  MongoDB_key = mongodb+srv://User Name:<db_password>@User.idpgx43.mongodb.net/?retryWrites=true&w=majority&appName=Name
 ### `nodemon server.js`
 runs the app on [localhost:3000](http://localhost:3000)
