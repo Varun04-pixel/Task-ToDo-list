@@ -8,7 +8,7 @@ to install the dependencies
 ### `Connect the DB and copy the connection string`
 create a .env file and assign the connection string to MongoDB_key
 
-example :  MongoDB_key = mongodb+srv://User Name:<db_password>@User.idpgx43.mongodb.net/?retryWrites=true&w=majority&appName=Name
+example :  add `MongoDB_key = mongodb+srv://User Name:<db_password>@User.idpgx43.mongodb.net/?retryWrites=true&w=majority&appName=Name` in your .env file (This is a demo connection string, use your own)
 ### `nodemon server.js`
 in your terminal run `nodemon server.js`
 runs the app on [localhost:3000](http://localhost:3000)
