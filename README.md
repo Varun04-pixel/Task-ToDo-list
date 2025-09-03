@@ -4,7 +4,7 @@ A simple To-Do list with ADD, UPDATE, READ and DELETE operations on tasks, this 
 ### `npm i`
 to install the dependencies
 ### `Create a mongodb account and create a cluster`
-[MongoDB.com](https://www.mongodb.com)
+visit [MongoDB.com](https://www.mongodb.com)
 ### `Connect the DB and copy the connection string`
 create a .env file and assign the connection string to MongoDB_key
 
@@ -14,4 +14,4 @@ in your terminal run `nodemon server.js`
 runs the app on [localhost:3000](http://localhost:3000)
 The server will auto reload when you make changes.
 
-now your mongodb collection updates when you add, delete, or update a task
+now your mongodb collection is on and running, it updates when you add, delete, or update a task
